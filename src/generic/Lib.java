@@ -21,6 +21,7 @@ public class Lib implements IAutoConstant{
 		Properties prop= new Properties();
 
 		try {
+			
 			prop.load(new FileInputStream(CONFIG_PATH));
 
 			property = prop.getProperty(key);
